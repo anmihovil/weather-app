@@ -54,7 +54,7 @@ app.get('/weather', (req, res) => {
 
         if (error) {
             return res.send({
-                error:'Unable to find location, please try another search.'
+                error:'Unable to find location, try another search.'
             });
         }    
 
