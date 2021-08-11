@@ -94,7 +94,7 @@ app.get('/help/*', (req, res) => {
     });
 });
 
-app.get('*', (req, res) => {
+app.get('/*', (req, res) => {
     res.render('error', {
         title: '',
         errorText: 'Page not found.',

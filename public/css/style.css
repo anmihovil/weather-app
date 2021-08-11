@@ -8,6 +8,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategrey;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     min-height: 100vh;
     max-width: 40rem;
@@ -32,6 +34,7 @@ footer {
 header {
     margin-top: 1rem;
     margin-bottom: 3rem;
+    text-decoration: none;
 }
 
 h1 {
