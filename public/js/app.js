@@ -7,6 +7,8 @@ const msgTwo = document.getElementById('message--2');
 msgOne.textContent = 'Location: ';
 msgTwo.textContent = 'Weather: ';
 
+const fetchPrefix = 'http://localhost:3000';
+
 weatherForm.addEventListener('submit', (event) => {
     event.preventDefault();
     const location = search.value
