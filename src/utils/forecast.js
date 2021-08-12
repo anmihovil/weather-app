@@ -14,7 +14,7 @@ const forecast = (long, lat, callback ) => {
             const weatherDescription = body.current.weather_descriptions[0];
             const humidity = body.current.humidity;
             callback(undefined, chalk.green(
-                `The weather is ${weatherDescription} with temperature of ${temp}°C degrees that feels like ${feelsLikeTemp}°C with ${humidity}% humidity.`
+                `The weather is ${weatherDescription} with temperature of ${temp}°C degrees that feels like ${feelsLikeTemp}°C with ${humidity}% relative humidity.`
             ));
         }
     })
